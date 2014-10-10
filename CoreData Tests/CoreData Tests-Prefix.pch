@@ -12,5 +12,10 @@
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
     #import <Foundation/Foundation.h>
+
+#define kTestPhotosCount 10000
+#define kBatchSize 30
+
 #endif

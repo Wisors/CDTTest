@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1AE70719C6135300961BF3 /* CDTMOPhotoV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE70619C6135300961BF3 /* CDTMOPhotoV1.m */; };
+		6D1AE70A19C6135300961BF3 /* CDTMOPhotoV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE70919C6135300961BF3 /* CDTMOPhotoV2.m */; };
+		6D1AE70D19C6135300961BF3 /* CDTMOPhotoMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE70C19C6135300961BF3 /* CDTMOPhotoMeta.m */; };
+		6D1AE71019C7631B00961BF3 /* CDTPhotoEntityRandomizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE70F19C7631B00961BF3 /* CDTPhotoEntityRandomizer.m */; };
+		6D1AE71319CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE71219CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.m */; };
+		6D1AE71619CDCFFF00961BF3 /* CDTMOPhotoV1Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE71519CDCFFF00961BF3 /* CDTMOPhotoV1Index.m */; };
+		6D1AE71919CDCFFF00961BF3 /* CDTMOPhotoV2Index.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE71819CDCFFF00961BF3 /* CDTMOPhotoV2Index.m */; };
+		6D1AE71C19CDD0F000961BF3 /* CDTFirstModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE71B19CDD0F000961BF3 /* CDTFirstModelTest.m */; };
+		6D1AE72119CDD3CE00961BF3 /* CDTFirstModelPerfomanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE72019CDD3CE00961BF3 /* CDTFirstModelPerfomanceTest.m */; };
+		6D1AE72419CDD53D00961BF3 /* CDTModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE72319CDD53D00961BF3 /* CDTModelTest.m */; };
+		6D1AE72719CDD92700961BF3 /* CDTSecondModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE72619CDD92700961BF3 /* CDTSecondModelTest.m */; };
+		6D1AE72C19CDE4BB00961BF3 /* CDTSecondModelPerfomanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE72B19CDE4BB00961BF3 /* CDTSecondModelPerfomanceTest.m */; };
+		6D1AE72D19CDE9E000961BF3 /* CDTPhotoEntityRandomizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE70F19C7631B00961BF3 /* CDTPhotoEntityRandomizer.m */; };
+		6D1AE73019CEBACD00961BF3 /* CDTMOPhotoMetaV3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE72F19CEBACD00961BF3 /* CDTMOPhotoMetaV3.m */; };
+		6D1AE73319CEBACE00961BF3 /* CDTMOPhotoV3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE73219CEBACE00961BF3 /* CDTMOPhotoV3.m */; };
+		6D1AE73619CEBAF400961BF3 /* CDTThirdModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE73519CEBAF400961BF3 /* CDTThirdModelTest.m */; };
+		6D1AE73819CEBC1F00961BF3 /* CDTThirdModelPerfomanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AE73719CEBC1F00961BF3 /* CDTThirdModelPerfomanceTest.m */; };
 		6D1EF5C519BCCEF3005C7C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1EF5C419BCCEF3005C7C17 /* Foundation.framework */; };
 		6D1EF5C719BCCEF3005C7C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1EF5C619BCCEF3005C7C17 /* CoreGraphics.framework */; };
 		6D1EF5C919BCCEF3005C7C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1EF5C819BCCEF3005C7C17 /* UIKit.framework */; };
@@ -20,7 +37,9 @@
 		6D1EF5E519BCCEF3005C7C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1EF5C419BCCEF3005C7C17 /* Foundation.framework */; };
 		6D1EF5E619BCCEF3005C7C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1EF5C819BCCEF3005C7C17 /* UIKit.framework */; };
 		6D1EF5EE19BCCEF3005C7C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1EF5EC19BCCEF3005C7C17 /* InfoPlist.strings */; };
-		6D1EF5F019BCCEF3005C7C17 /* CoreData_TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EF5EF19BCCEF3005C7C17 /* CoreData_TestsTests.m */; };
+		6D1EF5FC19BCCF97005C7C17 /* CDTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EF5FB19BCCF97005C7C17 /* CDTCoreDataStack.m */; };
+		6D1EF5FF19BCD14B005C7C17 /* CDTmodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EF5FD19BCD14B005C7C17 /* CDTmodel.xcdatamodeld */; };
+		7621B8A819D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7621B8A719D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D1AE70519C6135300961BF3 /* CDTMOPhotoV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV1.h; sourceTree = "<group>"; };
+		6D1AE70619C6135300961BF3 /* CDTMOPhotoV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV1.m; sourceTree = "<group>"; };
+		6D1AE70819C6135300961BF3 /* CDTMOPhotoV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV2.h; sourceTree = "<group>"; };
+		6D1AE70919C6135300961BF3 /* CDTMOPhotoV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV2.m; sourceTree = "<group>"; };
+		6D1AE70B19C6135300961BF3 /* CDTMOPhotoMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoMeta.h; sourceTree = "<group>"; };
+		6D1AE70C19C6135300961BF3 /* CDTMOPhotoMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoMeta.m; sourceTree = "<group>"; };
+		6D1AE70E19C7631B00961BF3 /* CDTPhotoEntityRandomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTPhotoEntityRandomizer.h; sourceTree = "<group>"; };
+		6D1AE70F19C7631B00961BF3 /* CDTPhotoEntityRandomizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTPhotoEntityRandomizer.m; sourceTree = "<group>"; };
+		6D1AE71119CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoMetaIndex.h; sourceTree = "<group>"; };
+		6D1AE71219CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoMetaIndex.m; sourceTree = "<group>"; };
+		6D1AE71419CDCFFF00961BF3 /* CDTMOPhotoV1Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV1Index.h; sourceTree = "<group>"; };
+		6D1AE71519CDCFFF00961BF3 /* CDTMOPhotoV1Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV1Index.m; sourceTree = "<group>"; };
+		6D1AE71719CDCFFF00961BF3 /* CDTMOPhotoV2Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV2Index.h; sourceTree = "<group>"; };
+		6D1AE71819CDCFFF00961BF3 /* CDTMOPhotoV2Index.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV2Index.m; sourceTree = "<group>"; };
+		6D1AE71A19CDD0F000961BF3 /* CDTFirstModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTFirstModelTest.h; sourceTree = "<group>"; };
+		6D1AE71B19CDD0F000961BF3 /* CDTFirstModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTFirstModelTest.m; sourceTree = "<group>"; };
+		6D1AE71E19CDD19700961BF3 /* CDTPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTPerformanceTest.h; sourceTree = "<group>"; };
+		6D1AE72019CDD3CE00961BF3 /* CDTFirstModelPerfomanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTFirstModelPerfomanceTest.m; sourceTree = "<group>"; };
+		6D1AE72219CDD53D00961BF3 /* CDTModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTModelTest.h; sourceTree = "<group>"; };
+		6D1AE72319CDD53D00961BF3 /* CDTModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTModelTest.m; sourceTree = "<group>"; };
+		6D1AE72519CDD92700961BF3 /* CDTSecondModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTSecondModelTest.h; sourceTree = "<group>"; };
+		6D1AE72619CDD92700961BF3 /* CDTSecondModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSecondModelTest.m; sourceTree = "<group>"; };
+		6D1AE72819CDDBAC00961BF3 /* CDTPhotoV1Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTPhotoV1Interface.h; sourceTree = "<group>"; };
+		6D1AE72919CDE04600961BF3 /* CDTPhotoV2Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTPhotoV2Interface.h; sourceTree = "<group>"; };
+		6D1AE72A19CDE0A400961BF3 /* CDTMetaInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMetaInterface.h; sourceTree = "<group>"; };
+		6D1AE72B19CDE4BB00961BF3 /* CDTSecondModelPerfomanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSecondModelPerfomanceTest.m; sourceTree = "<group>"; };
+		6D1AE72E19CEBACD00961BF3 /* CDTMOPhotoMetaV3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoMetaV3.h; sourceTree = "<group>"; };
+		6D1AE72F19CEBACD00961BF3 /* CDTMOPhotoMetaV3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoMetaV3.m; sourceTree = "<group>"; };
+		6D1AE73119CEBACE00961BF3 /* CDTMOPhotoV3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV3.h; sourceTree = "<group>"; };
+		6D1AE73219CEBACE00961BF3 /* CDTMOPhotoV3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV3.m; sourceTree = "<group>"; };
+		6D1AE73419CEBAF400961BF3 /* CDTThirdModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTThirdModelTest.h; sourceTree = "<group>"; };
+		6D1AE73519CEBAF400961BF3 /* CDTThirdModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTThirdModelTest.m; sourceTree = "<group>"; };
+		6D1AE73719CEBC1F00961BF3 /* CDTThirdModelPerfomanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTThirdModelPerfomanceTest.m; sourceTree = "<group>"; };
 		6D1EF5C119BCCEF3005C7C17 /* CoreData Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1EF5C419BCCEF3005C7C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D1EF5C619BCCEF3005C7C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +104,11 @@
 		6D1EF5E319BCCEF3005C7C17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6D1EF5EB19BCCEF3005C7C17 /* CoreData TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreData TestsTests-Info.plist"; sourceTree = "<group>"; };
 		6D1EF5ED19BCCEF3005C7C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6D1EF5EF19BCCEF3005C7C17 /* CoreData_TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreData_TestsTests.m; sourceTree = "<group>"; };
+		6D1EF5FA19BCCF97005C7C17 /* CDTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTCoreDataStack.h; sourceTree = "<group>"; };
+		6D1EF5FB19BCCF97005C7C17 /* CDTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTCoreDataStack.m; sourceTree = "<group>"; };
+		6D1EF5FE19BCD14B005C7C17 /* CDTmodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDTmodel.xcdatamodel; sourceTree = "<group>"; };
+		7621B8A619D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTMOPhotoV1CompoundIndex.h; sourceTree = "<group>"; };
+		7621B8A719D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTMOPhotoV1CompoundIndex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +135,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D1AE71D19CDD0F600961BF3 /* CDPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				6D1AE71A19CDD0F000961BF3 /* CDTFirstModelTest.h */,
+				6D1AE71B19CDD0F000961BF3 /* CDTFirstModelTest.m */,
+				6D1AE72219CDD53D00961BF3 /* CDTModelTest.h */,
+				6D1AE72319CDD53D00961BF3 /* CDTModelTest.m */,
+				6D1AE71E19CDD19700961BF3 /* CDTPerformanceTest.h */,
+				6D1AE72519CDD92700961BF3 /* CDTSecondModelTest.h */,
+				6D1AE72619CDD92700961BF3 /* CDTSecondModelTest.m */,
+				6D1AE73419CEBAF400961BF3 /* CDTThirdModelTest.h */,
+				6D1AE73519CEBAF400961BF3 /* CDTThirdModelTest.m */,
+			);
+			path = CDPerformance;
+			sourceTree = "<group>";
+		};
+		6D1AE71F19CDD1AD00961BF3 /* CDRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				6D1AE70E19C7631B00961BF3 /* CDTPhotoEntityRandomizer.h */,
+				6D1AE70F19C7631B00961BF3 /* CDTPhotoEntityRandomizer.m */,
+			);
+			path = CDRandomizer;
+			sourceTree = "<group>";
+		};
 		6D1EF5B819BCCEF3005C7C17 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +193,7 @@
 		6D1EF5CA19BCCEF3005C7C17 /* CoreData Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6D1EF5F919BCCF70005C7C17 /* CoreData */,
 				6D1EF5D319BCCEF3005C7C17 /* CDTAppDelegate.h */,
 				6D1EF5D419BCCEF3005C7C17 /* CDTAppDelegate.m */,
 				6D1EF5D619BCCEF3005C7C17 /* Main.storyboard */,
@@ -137,8 +219,12 @@
 		6D1EF5E919BCCEF3005C7C17 /* CoreData TestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D1EF5EF19BCCEF3005C7C17 /* CoreData_TestsTests.m */,
+				6D1AE71F19CDD1AD00961BF3 /* CDRandomizer */,
+				6D1AE71D19CDD0F600961BF3 /* CDPerformance */,
 				6D1EF5EA19BCCEF3005C7C17 /* Supporting Files */,
+				6D1AE72019CDD3CE00961BF3 /* CDTFirstModelPerfomanceTest.m */,
+				6D1AE72B19CDE4BB00961BF3 /* CDTSecondModelPerfomanceTest.m */,
+				6D1AE73719CEBC1F00961BF3 /* CDTThirdModelPerfomanceTest.m */,
 			);
 			path = "CoreData TestsTests";
 			sourceTree = "<group>";
@@ -150,6 +236,37 @@
 				6D1EF5EC19BCCEF3005C7C17 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D1EF5F919BCCF70005C7C17 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6D1EF5FA19BCCF97005C7C17 /* CDTCoreDataStack.h */,
+				6D1EF5FB19BCCF97005C7C17 /* CDTCoreDataStack.m */,
+				6D1EF5FD19BCD14B005C7C17 /* CDTmodel.xcdatamodeld */,
+				6D1AE70B19C6135300961BF3 /* CDTMOPhotoMeta.h */,
+				6D1AE70C19C6135300961BF3 /* CDTMOPhotoMeta.m */,
+				6D1AE70819C6135300961BF3 /* CDTMOPhotoV2.h */,
+				6D1AE70919C6135300961BF3 /* CDTMOPhotoV2.m */,
+				6D1AE70519C6135300961BF3 /* CDTMOPhotoV1.h */,
+				6D1AE70619C6135300961BF3 /* CDTMOPhotoV1.m */,
+				6D1AE71719CDCFFF00961BF3 /* CDTMOPhotoV2Index.h */,
+				6D1AE71819CDCFFF00961BF3 /* CDTMOPhotoV2Index.m */,
+				6D1AE71419CDCFFF00961BF3 /* CDTMOPhotoV1Index.h */,
+				6D1AE71519CDCFFF00961BF3 /* CDTMOPhotoV1Index.m */,
+				6D1AE71119CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.h */,
+				6D1AE71219CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.m */,
+				6D1AE72819CDDBAC00961BF3 /* CDTPhotoV1Interface.h */,
+				6D1AE72919CDE04600961BF3 /* CDTPhotoV2Interface.h */,
+				6D1AE72A19CDE0A400961BF3 /* CDTMetaInterface.h */,
+				6D1AE73119CEBACE00961BF3 /* CDTMOPhotoV3.h */,
+				6D1AE73219CEBACE00961BF3 /* CDTMOPhotoV3.m */,
+				6D1AE72E19CEBACD00961BF3 /* CDTMOPhotoMetaV3.h */,
+				6D1AE72F19CEBACD00961BF3 /* CDTMOPhotoMetaV3.m */,
+				7621B8A619D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.h */,
+				7621B8A719D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.m */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +317,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alexansdf1der Nikishin";
 				TargetAttributes = {
+					6D1EF5C019BCCEF3005C7C17 = {
+						DevelopmentTeam = 43FP93NFLL;
+					};
 					6D1EF5E119BCCEF3005C7C17 = {
 						TestTargetID = 6D1EF5C019BCCEF3005C7C17;
 					};
@@ -251,8 +371,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1EF5D519BCCEF3005C7C17 /* CDTAppDelegate.m in Sources */,
+				7621B8A819D9B0EE0027D744 /* CDTMOPhotoV1CompoundIndex.m in Sources */,
+				6D1AE70A19C6135300961BF3 /* CDTMOPhotoV2.m in Sources */,
+				6D1AE71619CDCFFF00961BF3 /* CDTMOPhotoV1Index.m in Sources */,
+				6D1EF5FC19BCCF97005C7C17 /* CDTCoreDataStack.m in Sources */,
+				6D1AE70D19C6135300961BF3 /* CDTMOPhotoMeta.m in Sources */,
+				6D1EF5FF19BCD14B005C7C17 /* CDTmodel.xcdatamodeld in Sources */,
+				6D1AE72D19CDE9E000961BF3 /* CDTPhotoEntityRandomizer.m in Sources */,
+				6D1AE73319CEBACE00961BF3 /* CDTMOPhotoV3.m in Sources */,
+				6D1AE70719C6135300961BF3 /* CDTMOPhotoV1.m in Sources */,
+				6D1AE71919CDCFFF00961BF3 /* CDTMOPhotoV2Index.m in Sources */,
+				6D1AE71319CDCFFF00961BF3 /* CDTMOPhotoMetaIndex.m in Sources */,
 				6D1EF5D119BCCEF3005C7C17 /* main.m in Sources */,
 				6D1EF5DB19BCCEF3005C7C17 /* CDTViewController.m in Sources */,
+				6D1AE73019CEBACD00961BF3 /* CDTMOPhotoMetaV3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1EF5F019BCCEF3005C7C17 /* CoreData_TestsTests.m in Sources */,
+				6D1AE72719CDD92700961BF3 /* CDTSecondModelTest.m in Sources */,
+				6D1AE72119CDD3CE00961BF3 /* CDTFirstModelPerfomanceTest.m in Sources */,
+				6D1AE72419CDD53D00961BF3 /* CDTModelTest.m in Sources */,
+				6D1AE71C19CDD0F000961BF3 /* CDTFirstModelTest.m in Sources */,
+				6D1AE73619CEBAF400961BF3 /* CDTThirdModelTest.m in Sources */,
+				6D1AE71019C7631B00961BF3 /* CDTPhotoEntityRandomizer.m in Sources */,
+				6D1AE72C19CDE4BB00961BF3 /* CDTSecondModelPerfomanceTest.m in Sources */,
+				6D1AE73819CEBC1F00961BF3 /* CDTThirdModelPerfomanceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,9 +516,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData Tests/CoreData Tests-Prefix.pch";
 				INFOPLIST_FILE = "CoreData Tests/CoreData Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +531,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData Tests/CoreData Tests-Prefix.pch";
 				INFOPLIST_FILE = "CoreData Tests/CoreData Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +600,7 @@
 				6D1EF5F519BCCEF3005C7C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D1EF5F619BCCEF3005C7C17 /* Build configuration list for PBXNativeTarget "CoreData TestsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +609,22 @@
 				6D1EF5F819BCCEF3005C7C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D1EF5FD19BCD14B005C7C17 /* CDTmodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D1EF5FE19BCD14B005C7C17 /* CDTmodel.xcdatamodel */,
+			);
+			currentVersion = 6D1EF5FE19BCD14B005C7C17 /* CDTmodel.xcdatamodel */;
+			path = CDTmodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6D1EF5B919BCCEF3005C7C17 /* Project object */;
 }
