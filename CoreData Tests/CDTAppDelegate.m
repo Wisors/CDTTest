@@ -13,7 +13,9 @@
 @implementation CDTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    _stack = [[CDTCoreDataStack alloc] initStackWithVersion:CDTCoreDataVersionFlat error:NULL];
+    NSError *error;
+    _stack = [[CDTCoreDataStack alloc] initStackError:&error];
+    NSAssert(error == nil, @"Can't initialize stack!");
     
     [CDTPhotoEntityRandomizer shared]; // Randomize assets
     

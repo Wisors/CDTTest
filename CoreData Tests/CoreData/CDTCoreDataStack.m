@@ -17,7 +17,7 @@ static NSString *const PLCoreDataModelFileName = @"CDTmodel";
     NSPersistentStoreCoordinator *_backgroundCoordinator;
 }
 
-- (instancetype)initStackWithVersion:(CDTCoreDataVersion)version error:(NSError *__autoreleasing *)error {
+- (instancetype)initStackError:(NSError *__autoreleasing *)error {
     if (self = [super init]) {
         _storeURL = [CDTCoreDataStack storeURL];
         
