@@ -26,8 +26,7 @@ static NSString *const PLCoreDataModelFileName = @"CDTmodel";
         
         // main
         _mainCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:_objectModel];
-        NSError *error;
-        if (![_mainCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:_storeURL options:[self _persistentStoreOptions] error:&error]) {
+        if (![_mainCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:_storeURL options:[self _persistentStoreOptions] error:error]) {
             NSAssert(false, @"Fail to add persistentStore");
             return nil;
         }
@@ -37,7 +36,7 @@ static NSString *const PLCoreDataModelFileName = @"CDTmodel";
         
         // background
         _backgroundCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:_objectModel];
-        if (![_backgroundCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:_storeURL options:[self _persistentStoreOptions] error:&error]) {
+        if (![_backgroundCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:_storeURL options:[self _persistentStoreOptions] error:error]) {
             NSAssert(false, @"Fail to add persistentStore");
             return nil;
         }
