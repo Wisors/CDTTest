@@ -317,9 +317,6 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alexansdf1der Nikishin";
 				TargetAttributes = {
-					6D1EF5C019BCCEF3005C7C17 = {
-						DevelopmentTeam = 43FP93NFLL;
-					};
 					6D1EF5E119BCCEF3005C7C17 = {
 						TestTargetID = 6D1EF5C019BCCEF3005C7C17;
 					};
@@ -517,11 +514,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData Tests/CoreData Tests-Prefix.pch";
 				INFOPLIST_FILE = "CoreData Tests/CoreData Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,11 +531,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData Tests/CoreData Tests-Prefix.pch";
 				INFOPLIST_FILE = "CoreData Tests/CoreData Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
